@@ -111,4 +111,13 @@ public class Persona implements Serializable {
 		this.telefono = telefono;
 	}
 
+	@Override
+	public String toString() {
+		return "Persona [cedula=" + cedula + ", apellidos=" + apellidos + ", canton=" + canton + ", correo=" + correo
+				+ ", direccion=" + direccion + ", fechaNacimiento=" + fechaNacimiento + ", nombres=" + nombres
+				+ ", provincia=" + provincia + ", telefono=" + telefono + "]";
+	}
+	
+	
+
 }
